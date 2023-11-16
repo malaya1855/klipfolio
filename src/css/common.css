@@ -1,11 +1,12 @@
 root {
   --primary-text-color: #21264f;
+  --secondary-text-color: #3d455c;
   --primary-element-color: #303881;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--accent-color);
+  font-family: 'Open Sans', sans-serif;
+  color: var(--secondary-text-color);
 }
 a {
   text-decoration: none;
