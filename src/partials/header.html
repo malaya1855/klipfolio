@@ -8,29 +8,52 @@
   <nav>
     <ul class="nav-links">
       <li>
-            <select class="header-select" name="select">
-              <option value="value1" selected><a href="">Products</a></option>
-              <option value="value2"><a href="">Services</a></option>
-            </select>
+        <div class="dropdown">
+          <button class="dropdown-btn">
+            Products
+                        <svg class="" width="9" height="6">
+              <use href="/src/icons/sprite.svg#icon-dropdown"></use>
+            </svg>
+          </button>
+          <ul class="dropdown-content">
+            <li class="dropdown-item"><a href="">Product A</a></li>
+            <li class="dropdown-item"><a href="">Product B</a></li>
+          </ul>
+        </div>
+            
       </li>
       <li><a href="">Pricing</a></li>
       <li><a href="">Integrations</a></li>
       <li>
-        <a href="">
-            <select class="header-select" name="select">
-              <option value="value1" selected><a href="">Client Reporting</a></option>
-            </select>
+        <div class="dropdown">
+          <button class="dropdown-btn">
+            Client Reporting
+                        <svg class="" width="9" height="6">
+              <use href="/src/icons/sprite.svg#icon-dropdown"></use>
+            </svg>
+          </button>
+          <ul class="dropdown-content" >
+            <li class="dropdown-item"><a href="">Report Form A</a></li>
+            <li class="dropdown-item"><a href="">Report Form B</a></li>
+          </ul>
+        </div>
+        
 
         </a>
       </li>
       <li>
-        <a href="">
-            <select class="header-select" name="select">
-              <option value="value1" selected><a href="">Learning</a></option>
-              <option value="value2"><a href="">Q&A</a></option>
-
-        </a>
-        </select>
+        <div class="dropdown">
+          <button class="dropdown-btn">
+            Learning
+                        <svg class="" width="9" height="6">
+              <use href="/src/icons/sprite.svg#icon-dropdown"></use>
+            </svg>
+          </button>
+          <ul class="dropdown-content" >
+            <li class="dropdown-item"><a href="">Forum</a></li>
+            <li class="dropdown-item"><a href="">Q&A</a></li>
+          </ul>
+        
       </li>
       <li><a href="">
         We're Hiring
