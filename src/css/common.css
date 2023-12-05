@@ -1,7 +1,9 @@
 :root {
   --primary-text-color: #21264f;
+  --primary-light-text-color: #ffffff;
   --secondary-text-color: #3d455c;
   --primary-element-color: #303881;
+  --primary-main-title-color: #21264f;
 }
 
 body {
@@ -11,6 +13,8 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+  display: inline-block;
 }
 li {
   list-style: none;
