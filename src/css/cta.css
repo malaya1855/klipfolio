@@ -1,0 +1,30 @@
+.cta-container {
+  padding-bottom: 191.91px;
+}
+.cta-wrapper {
+  border-radius: 40px;
+  width: 1168px;
+  background-color: var(--primary-element-color);
+  padding-top: 74px;
+  padding-bottom: 80px;
+  padding-left: 250px;
+  padding-right: 256px;
+}
+.cta-title {
+  width: 463px;
+  margin-bottom: 55px;
+}
+.cta-text {
+  width: 662px;
+  height: 93px;
+  color: var(--blue-text-color);
+  margin-bottom: 46px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+}
+.cta-btn-link {
+  background-color: var(--blue-text-color);
+  color: var(--dark-blue-text-color);
+}
