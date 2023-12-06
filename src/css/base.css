@@ -1,8 +1,75 @@
-/* containers, section */
-.container {
-  width: 1440px;
+:root {
+  --primary-text-color: #21264f;
+  --primary-light-text-color: #ffffff;
+  --secondary-text-color: #3d455c;
+  --primary-element-color: #303881;
+  --primary-main-title-color: #21264f;
+  --blue-text-color: #edf3fd;
+  --dark-blue-text-color: #4b57c5;
+  --gray-element-color: #333333;
+  --black-element-color: #222222;
+  --gray-text-color: #aaaaaa;
+}
+*,
+::after,
+::before {
   box-sizing: border-box;
-  padding-left: 120px;
-  padding-right: 120px;
-  outline: solid 1px red;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--secondary-text-color);
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  display: inline-block;
+}
+li {
+  list-style: none;
+}
+
+/* reset start */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+/* reset end */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

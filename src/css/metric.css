@@ -1,0 +1,22 @@
+.metric-container {
+  padding-top: 48px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-main-title-color);
+}
+.metric-title {
+  width: 735px;
+  height: 245px;
+  margin-bottom: 12px;
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 82px;
+  letter-spacing: 2.0399999618530273px;
+}
+.metric-text {
+  width: 624px;
+  height: 154px;
+}
