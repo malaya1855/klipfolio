@@ -9,12 +9,15 @@
   margin-right: auto;
   width: 1440px;
 }
-.section-gradient {
+.section-gradient1 {
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-image: url('../assets/images/bg2x.png');
-
-  height: 2128.56px;
+  background-size: 100%;
+  background-image: url('../assets/images/bg1x.png');
+}
+.section-gradient2 {
+  background-repeat: no-repeat;
+  background-size: 125.118% 100%;
+  background-image: url('../assets/images/bg1x.png');
 }
 
 .section-title {
