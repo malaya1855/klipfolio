@@ -1,6 +1,6 @@
-.section-hero {
+.hero-section {
   padding-top: 64px;
-  padding: 191.56px;
+  /* padding: 191.56px; */
 }
 .hero-container {
   display: flex;
@@ -14,7 +14,6 @@
   height: 474px;
 }
 .hero-title {
-  color: var(--primary-main-title-color);
   width: 485px;
   height: 212px;
   font-weight: 800;
@@ -28,7 +27,7 @@
 }
 .hero-btn-link {
   color: var(--primary-light-text-color);
-  background-color: var(--primary-main-title-color);
+  background-color: var(--primary-text-color);
   margin-right: 24px;
 }
 .hero-link {

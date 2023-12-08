@@ -14,27 +14,23 @@
     <link href="./css/main.css" rel="stylesheet" />
   </head>
   <body>
-    <header class="section">
-      <div class="container">
-        <include src="./partials/header.html"></include>
-      </div>
+    <header>
+      <include src="./partials/header.html"></include>
     </header>
     <main>
-      <section class="section section-gradient">
+      <div class="section-gradient">
         <include src="./partials/hero.html"></include>
         <include src="./partials/analytics.html"></include>
-      </section>
-      <section class="section">
-        <include src="./partials/metricImage.html"></include>
-      </section>
-      <section class="section section-gradient">
+      </div>
+      <include src="./partials/metricImage.html"></include>
+      <div class="section-gradient">
         <include src="./partials/metrics.html"></include>
         <include src="./partials/goals.html"></include>
         <include src="./partials/teamOpportunities.html"></include>
         <include src="./partials/cta.html"></include>
-      </section>
+      </div>
     </main>
-    <footer class="section">
+    <footer>
       <include src="./partials/footer.html"></include>
     </footer>
     <script src="./js/index.js" type="module"></script>
