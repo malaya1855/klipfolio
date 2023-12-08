@@ -1,0 +1,38 @@
+.analytic-bg {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+  /* padding-top: 192px; */
+  /* padding-bottom: 521px; */
+}
+.analytic-message {
+  width: 1200px;
+  height: 940px;
+  flex-shrink: 0;
+  border-radius: 40px;
+  background: var(--primary-element-color);
+  padding-top: 55px;
+  padding-left: 266px;
+  padding-right: 163px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.analytic-text {
+  width: 639px;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1, 2;
+  margin-top: 17px;
+}
+.analytic-media-img {
+  position: absolute;
+  top: 222px;
+}
+.analytic-dash-img {
+  position: absolute;
+  top: 689px;
+  left: 160px;
+}
