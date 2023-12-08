@@ -15,6 +15,12 @@
   background-image: url('../assets/images/bg2x.png');
   height: 2128.56px;
 }
+.section-title {
+  font-size: 68px;
+  font-weight: 800;
+  line-height: 82px;
+  letter-spacing: 2.0399999618530273px;
+}
 .section-text {
   font-size: 32px;
   font-weight: 400;
@@ -22,12 +28,6 @@
   letter-spacing: 0em;
 }
 
-.title {
-  font-size: 66px;
-  font-weight: 800;
-  line-height: 82px;
-  letter-spacing: 2.0399999618530273px;
-}
 .white-title {
   color: var(--primary-light-text-color);
 }

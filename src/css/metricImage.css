@@ -1,10 +1,12 @@
+.metrics-img-section {
+  padding-top: 301px;
+}
 .metric-bg {
   background-image: url('../assets/images/metrik2x.png');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0 60px;
   width: 1440px;
-  height: 537px;
   padding-bottom: 70px;
   padding-top: 128.56px;
   display: flex;

@@ -13,6 +13,8 @@
 .cta-title {
   width: 463px;
   margin-bottom: 55px;
+  font-size: 65px;
+  color: var(--blue-text-color);
 }
 .cta-text {
   width: 662px;
