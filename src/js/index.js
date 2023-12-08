@@ -31,3 +31,33 @@ window.onclick = function(e) {
 
     })
   }}
+
+  const mybutton = document.getElementById("back-to-top-btn");
+  window.onscroll = function () {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
+    ) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  mybutton.addEventListener('click', scrollToTop)
+  
+  function scrollToTop() {
+  document.body.scrollTo({
+    top: 0,
+    behavior: 'smooth' 
+  });
+
+  document.documentElement.scrollTo({
+    top: 0,
+    behavior: 'smooth' 
+  });
+}
