@@ -22,12 +22,17 @@
   letter-spacing: 0em;
   color: var(--primary-text-color);
 }
-.white-title {
+.title {
   font-size: 66px;
   font-weight: 800;
   line-height: 82px;
   letter-spacing: 2.0399999618530273px;
+}
+.white-title {
   color: var(--primary-light-text-color);
+}
+.dark-title {
+  color: var(--primary-text-colorr);
 }
 .btn-link {
   display: inline-flex;

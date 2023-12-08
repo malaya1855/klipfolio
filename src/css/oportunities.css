@@ -1,0 +1,18 @@
+.opport-title {
+  width: 642px;
+  /* margin-top: 64px; */
+  font-family: Open Sans;
+  font-size: 68px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2; /* 120% */
+  letter-spacing: 2.04px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.opport-text {
+  width: 652px;
+  margin-top: 17px;
+  margin-left: auto;
+  margin-right: auto;
+}

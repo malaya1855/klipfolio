@@ -24,15 +24,15 @@
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1, 2;
+  line-height: 1.2;
   margin-top: 17px;
 }
 .analytic-media-img {
   position: absolute;
-  top: 222px;
+  top: 30px;
 }
 .analytic-dash-img {
   position: absolute;
-  top: 689px;
+  top: 497px;
   left: 160px;
 }
