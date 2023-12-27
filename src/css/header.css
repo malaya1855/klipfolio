@@ -38,6 +38,9 @@
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.get-started-title:hover {
+  background-color: var(--primary-element-color);
+}
 .dropdown {
   overflow: hidden;
 }

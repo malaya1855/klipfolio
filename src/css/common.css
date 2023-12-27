@@ -57,7 +57,7 @@
   bottom: 20px;
   right: 20px;
   padding: 10px;
-  background-color: var(--primary-element-color);
+  background-color: var(--primary-text-color);
   box-shadow: 0px 44px 44px 0px rgba(33, 38, 79, 0.2);
   fill: var(--primary-light-text-color);
   border: none;
@@ -68,5 +68,5 @@
 }
 
 #back-to-top-btn:hover {
-  background-color: var(--primary-text-color);
+  background-color: var(--primary-element-color);
 }

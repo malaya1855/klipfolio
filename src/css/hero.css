@@ -30,6 +30,9 @@
   background-color: var(--primary-text-color);
   margin-right: 24px;
 }
+.hero-btn-link:hover {
+  background-color: var(--primary-element-color);
+}
 .hero-link {
   font-size: 16px;
   font-weight: 800;
