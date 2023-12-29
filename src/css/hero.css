@@ -42,6 +42,9 @@
   height: 28px;
   color: var(--primary-main-title-color);
 }
+.hero-link:hover {
+  color: var(--dark-blue-text-color);
+}
 .hero-navigate-wrapper {
   display: flex;
   align-items: center;
