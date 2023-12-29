@@ -3,14 +3,19 @@
   /* padding-bottom: 192px; */
 }
 .metric-container {
-  padding-top: 48px;
+  padding-top: 129px;
   padding-bottom: 70px;
+  background-image: url('../assets/images/metrik2x.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0 60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: var(--primary-main-title-color);
 }
+
 .metric-title {
   width: 735px;
   height: 245px;

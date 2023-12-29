@@ -1,30 +1,31 @@
 /* containers, section */
 .container {
-  padding-left: 120px;
-  padding-right: 120px;
-  outline: solid 1px red;
+  padding-left: 135px;
+  padding-right: 135px;
+  /* outline: solid 1px red; */
 }
 .section {
   margin-left: auto;
   margin-right: auto;
   width: 1440px;
 }
-.section-gradient1 {
+.section-gradient {
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-image: url('../assets/images/bg1x.png');
+  /* background-size: 100%; */
+  background-image: url('../assets/images/bg.png');
+  height: 6855.91px;
 }
-.section-gradient2 {
+/* .section-gradient2 {
   background-repeat: no-repeat;
   background-size: 125.118% 100%;
   background-image: url('../assets/images/bg1x.png');
-}
+} */
 
 .section-title {
   font-size: 68px;
   font-weight: 800;
   line-height: 82px;
-  letter-spacing: 2.0399999618530273px;
+  letter-spacing: 2.04px;
 }
 .section-text {
   font-size: 32px;
