@@ -1,6 +1,6 @@
 .hero-section {
   padding-top: 64px;
-  /* padding: 191.56px; */
+  position: relative;
 }
 .hero-container {
   display: flex;
@@ -58,9 +58,19 @@
 .hero-image {
   width: 701px;
   height: 713px;
-  /* position: absolute; */
-  /* z-index: 10; */
   top: 0px;
   right: 240px;
   background-image: url('../assets/images/heroImg1x.png');
+}
+.hero-bg-gradient {
+  position: absolute;
+  background-image: url(../assets/images/bg1x.png),
+    linear-gradient(180deg, transparent 60%, rgb(255, 255, 255) 90%);
+  width: 1440px;
+  height: 800px;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0.5;
 }
