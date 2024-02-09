@@ -29,7 +29,7 @@ The project utilizes the following technologies:
 
 Our landing page is developed using [Figma design](https://www.figma.com/file/gZXYJlQp25lEkWb3eZvY8G/Klipfolio-(Copy)?type=design&node-id=1-2&mode=design&t=DVp2JzXNIuFjpFsg-0)
 
-![Desktop Figma design](./assets/Desktop.png)
+![Desktop Figma design](../assets/Desktop.png)
 
 
 ## Contact
